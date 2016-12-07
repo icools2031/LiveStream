@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_6844a2a8d42d98f72045d2fc186cef774f446b8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_acae0d262dfa03f3b316c9be61dd8af30fa3b027.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_643fc5a39e3aa589e1feb75eee05a526bf77f7c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Library/Android/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_3e8cee2b3fff31c2f2cb0b0a0fce0da3ebdf52f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_5106fda60371fc1cb26200dd01912b78310450ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_06b9edfa645339b3077c74f9673c51e054d5d8f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_62d681eb60eac2cc6743349059c1c23df2bcebcf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_2d9641cf01a25dd8d36d2b07fbe7ad5318a950ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_cd1b913150bb2aabb1cbe41b3cc3e2b40633e434.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_cf1a25f80b2ac90a8dea9e965308e99cb89959d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_4115e78c7c7414178d12dcb566d6ff8d36d4e94a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_f30bce8916f4df6affe71eddb59d9fe0e498869d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_2ab69f0f72a9db4a730eaafb157c353ab1338e93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_e8384cb6e896ccdbd161dcaab754a15b97f1b886.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/finn/Desktop/github/LiveStream/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_6f28713050156175232bafb8d8eb69ccc35f691b.jar" />
+    </item>
+
+</items>
