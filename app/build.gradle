@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "item.finn.com.androidtest"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+        instrumentTest.setRoot('tests')
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta3'
+    testCompile 'junit:junit:4.12'
+
+    compile 'io.reactivex:rxjava:+'
+    compile 'io.reactivex:rxandroid:+'
+
+    compile 'com.squareup.retrofit2:retrofit:+'
+    compile 'com.squareup.retrofit2:adapter-rxjava:+'
+    compile 'com.squareup.retrofit2:converter-gson:+'
+
+    compile 'com.trello:rxlifecycle:0.6.1'
+    compile 'com.trello:rxlifecycle-components:0.6.1'
+
+    /**
+     * 一、主要功能有：
+     http://blog.csdn.net/yangjingxi0910/article/details/51435503
+     1、线程信息 Thread information
+     2、类信息 Class infomation
+     3、方法信息 Method information
+     4、打印json内容 pretty-print for json content
+     5、清除输出Clean output
+     6、跳到源码 jump to source feature
+     */
+    compile 'com.orhanobut:logger:1.15'
+
+
+}

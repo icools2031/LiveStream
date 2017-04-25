@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="item.finn.com">
+
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!--多屏机制 ,系统采用适配算法没
+    1.Adnroid1.6+ 引入<supports-screens ,3.2引入了新的属性：android:requiresSmallestWidthDp、android:compatibleWidthLimitDp和android:largestWidthLimitDp
+    -->
+    <!--resizeable 是否根据尺寸进行缩放? 当时是为了帮助程序从Android 1.5升级为1.6才引入本属性 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <!--allowBackup  是否支持备份  adb backup -nosystem -noshared -apk -f temp.bak com.sina.weibo  ,adb restore com.sina.weibo.ab -->
+    <!--hardwareAccelerated Android3.0（API Level 11),对自定义view有影响,需要在带有硬件加速的硬件设备测试, 控制粒度Application Activity Window View -->
+    <!--supportsRtl api 17+   是否支持没从右到左布局 -->
+    <application
+        android:name=".application.DYApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar.AppBaseTheme">
+        <activity android:name=".zztest.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
