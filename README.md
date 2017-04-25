@@ -1,2 +1,3 @@
 # LiveStream
-这是一个基本MVP 使用RxJava+Ratrofit+RxBind 技术实现的直接项目 
+这是一个基本MVP的直播项目  
+使用到的主要技术:RxJava+Ratrofit+RxBind 
